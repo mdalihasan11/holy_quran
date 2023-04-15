@@ -33,12 +33,17 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const SafeArea(
+    return SafeArea(
       child: Scaffold(
-          body: CircleAvatar(
-        backgroundColor: Colors.white,
-        radius: 250,
-        backgroundImage: AssetImage('assets/quran.png'),
+          body: Column(
+        children: const [
+          Center(
+              child: CircleAvatar(
+            backgroundColor: Colors.white,
+            radius: 250,
+            backgroundImage: AssetImage('assets/quran.png'),
+          )),
+        ],
       )),
     );
   }
