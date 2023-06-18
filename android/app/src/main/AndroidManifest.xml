@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.holy_quran">
+    package="com.rentechbd.holyquran">
     <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="Holy Quran"

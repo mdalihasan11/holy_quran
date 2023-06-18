@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
               width: double.infinity,
               decoration: const BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage('1.jpg'))),
+                      fit: BoxFit.cover, image: AssetImage('assets/1.jpg'))),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.start,
